@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+    <title>TO-DO list</title>
+</head>
+<body>
+    <div class="mainContainer">
+        
+        <div class="headerSection">
+            <h1>To-Do List</h1>
+            <img src="img.svg" alt="" srcset="">
+        </div>
+        
+        <div class="taskSection">
+            <form>
+                <input type="text" class="todoInput" placeholder="Add your task">
+                <button type="submit" class="todoBtn">
+                    <i class="fa-solid fa-plus" style="font-size: 28px; color: #00517a;"></i>
+                </button>
+            </form>
+        </div>
+        
+        <div class="listSection">
+            <div class="dropdown">
+                <button class="dropbtn">
+                    Tasks<i class="fa-solid fa-caret-down" style="font-size: 28px; color: #00517a;"></i>
+                </button>
+                <div class="dropdown-content">
+                    <a href="#">All</a>
+                    <a href="#">Completed</a>
+                    <a href="#">Incomplete</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
